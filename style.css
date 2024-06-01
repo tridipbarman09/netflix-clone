@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 75vw;
+    margin: auto;
+    padding: 20px 30px;
+}
+
+.navbar .items{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    gap: 20px;
+}
+
+.main{
+    position: relative;
+    background-image: url("assets/img/bg.jpg");
+    background-position: center center;
+    background-size: max(100vw, 1500px);
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+
+.main .box{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+    background-color: black;
+}
+
+.navbar img{
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: "Martel Sans", sans-serif;
+    color: white;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 78px);
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.hero h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero h2{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero h3{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero div{
+    display: flex;
+    gap: 7px;
+}
+
+.separation{
+    height: 8px;
+    background-color: rgb(50, 47, 47);
+}
+
+div input{
+    background-color: rgba(42, 42, 42, 0.4);
+    width: 350px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 185, 185);
+    padding-left: 15px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.btn-red{
+    font-size: 23px;
+    padding: 12px 20px;
+    height: 60px;
+    width: 210px;
+}
+
+.btn-red-sm{
+    width:75px;
+    padding: 2px 10px;
+    font-size: 13px;
+}
+
+.btn{
+    position: relative;
+    z-index: 10;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 0 solid red;
+    font-weight: bolder;
+}
+
+.btn-sp{
+    position: relative;
+    z-index: 10;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: rgba(21, 21, 21, 0.6);
+    width: 150px;
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 185, 185);
+}
+
+.main .content{
+    display: flex;
+    width:75vw;
+    margin: auto;
+    height: 80vh;
+    align-items: center;
+}
+
+.content .text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content img{
+    height: 55vh;
+}
+
+.text-container .t1{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.text-container .t2{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.content .visuals{
+    position: relative;
+}
+
+.visuals .video1{
+    position: absolute;
+    top: 73px;
+    left: 62px;
+    width: 341px;
+    z-index: -1;
+}
+
+.visuals .video2{
+    position: absolute;
+    top: 28px;
+    left: 89px;
+    width: 285px;
+    z-index: -1;
+}
